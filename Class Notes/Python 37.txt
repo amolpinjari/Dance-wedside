@@ -1,0 +1,107 @@
+Python:
+==============
+Lang Fandamentals:
+
+Features:
+1.Easy to Learn
+2.High Level Lang
+3.Interpreter Based Lang
+4.Dnyamically Typed
+5.Platform indenpendent
+
+Dis Adv
+1.won't support backward compatibility 
+2.not having framwork for mobile application
+
+versions of Python:
+1.0 /1.x
+2.0 /2.x
+3.0/3.x 
+
+currently launched : 3.11 
+
+use : 3.8/3.9  most stable version -- real time industry
+
+Variable 
+
+Rules to Identifiers : Name given as variable name /function name /class name
+
+1.combination --a-z,A-Z,0-9,_
+2.Case Sensetive lang
+3.Never startwith number
+4.no length restrication
+5.we cann't use keyword as idetifiers
+
+
+Case Rule :
+
+PascalCase
+camelCase
+snake_case
+
+Data Type:
+==============
+int  -- complete number
+str  -- collection of char
+float -- number with decimal/fraction
+
+None -- empty variable
+bool --True/False
+complex-- real+img constant 
+
+Data Structure:
+=================
+
+collection of data type/in perticular strcture/format
+
+1.list
+2.tuple
+3.set
+4.dict
+5.frozenset
+6.str
+
+List:
+it is collection of elements / which similar
+
+similar -- homogeneous list
+different -- hetrogeneous list
+
+mutable vs immutable
+======================
+
+if we are able to perform
+insert /add
+delete / remove
+update/modify
+
+mutable -- unhashable --> changable
+immutable -- hashable --> unchangable
+
+list can contain duplicate element
+list:
+======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

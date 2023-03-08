@@ -1,0 +1,521 @@
+Python:
+==============
+Lang Fandamentals:
+
+Features:
+1.Easy to Learn
+2.High Level Lang
+3.Interpreter Based Lang
+4.Dnyamically Typed
+5.Platform indenpendent
+
+Dis Adv
+1.won't support backward compatibility 
+2.not having framwork for mobile application
+
+versions of Python:
+1.0 /1.x
+2.0 /2.x
+3.0/3.x 
+
+currently launched : 3.11 
+
+use : 3.8/3.9  most stable version -- real time industry
+
+Variable 
+
+Rules to Identifiers : Name given as variable name /function name /class name
+
+1.combination --a-z,A-Z,0-9,_
+2.Case Sensetive lang
+3.Never startwith number
+4.no length restrication
+5.we cann't use keyword as idetifiers
+
+
+Case Rule :
+
+PascalCase
+camelCase
+snake_case
+
+Data Type:
+==============
+int  -- complete number
+str  -- collection of char
+float -- number with decimal/fraction
+
+None -- empty variable
+bool --True/False
+complex-- real+img constant 
+
+Data Structure:
+=================
+
+collection of data type/in perticular strcture/format
+
+1.list
+2.tuple
+3.set
+4.dict
+5.frozenset
+6.str
+
+List:
+it is collection of elements / which similar
+
+similar -- homogeneous list
+different -- hetrogeneous list
+
+mutable vs immutable
+======================
+
+if we are able to perform
+insert /add
+delete / remove
+update/modify
+
+mutable -- unhashable --> changable
+immutable -- hashable --> unchangable
+
+list can contain duplicate element
+list:
+======
+
+its
+
+collection of elements
+
+it is mutable type insert/delete/update/modify
+it is zero based index DS
+it can contain duplicate elements
+
+p = [34,7856,234,956,'python']
+
+1)Insertion :
+===============
+1. insert
+
+insert(index,element)
+
+to single element at desired location 
+
+
+2.append(element)
+
+to add single element at the end
+
+
+3.extend
+
+extend([group of elements])
+
+to add multiple elements at the end
+
+
+
+2) Deletion
+
+1.remove()
+it is used to delete element from list using element itself.
+
+2.pop()
+
+3.clear()
+
+
+
+###################################################################################################################
+
+Python Data Science:
+
+DA/DE/ML/DS/PD
+
+Main --> commmon Python tools
+
+Python :
+Handle Huge/Mongo/humoungous  Data :
+
+
+
+5 year past data :
+======================
+
+can we perdict --
+
+trend --> in which month we good amount 
+
+domain knowledge 
+
+Data -- 
+
+Python :
+
+
+pandas,seaborn
+
+
+Adv /Features:
+=====================
+1.Easy to learn :
+BA
+
+lines of code is very less 
+
+
+hi -- 1 line     --> java -- 7-8 lines
+
+
+csv/excel file. tsv
+tab separated 
+
+keshav,21,pune
+python -- 1 line            java -- 25 lines read 
+										read + analysis = huge/complex	
+
+
+4.5 after/
+
+1 fail  --> 6month--
+90 % data will get in the form of csv (real)
+===================================================
+2.open source/freeware 
+
+code -- available 
+
+git storage 
+
+-- modify and lounched
+====================================================
+3.high level lang
+
+
+human 
+
+English lang
+
+
+low level --> machine understanable 
+
+
+4.interpreter based lang
+============================
+
+
+5.Dnyamically typed
+====================
+we can define variable on the fly 
+
+according to the data it will create variable of that type
+a = 94194
+type(a) # int
+
+6. platform indenpendent:-
+===========================
+it is not depend on any platform
+
+Dis Adv.
+==========
+1.Mobile application dev 
+2.Backword compatibility issue
+
+
+web application
+desktop
+cloud application
+
+changes --> 
+
+print "Hi"
+
+print("Hi")
+
+
+python website:
+-----------------
+Data Type/DS
+
+
+collection of facts
+
+
+
+
+List: Operation:
+
+insertion
+insert
+append
+extend
+
+deletion
+
+pop
+remove
+clear
+
+
+
+
+updatation
+p[2] = newvalue
+
+count
+index
+sort
+reverse
+
+Tuple:-
+it is collection of data type(elements)
+
+it is immutable
+we cannt --> insert/delete/update elements
+
+List vs Tuple:
+==============
+
+[] -- ()  -- student level 
+
+real time project:
+
+productid ,name ,price ,emailid
+
+
+accounnumber ,  
+
+
+
+list -- frequenlty changable
+
+
+tuple -- infrequent data changes 
+
+
+
+cred = [username ,password ] 
+
+
+BHFL -- 2021 
+non-prod / host fix /
+CR 
+
+EMI  SMS
+ACH 
+
+
+
+
+
+1 - team 
+
+1 --  cred ---  
+4 
+
+
+t = (username,password)
+
+
+
+1hr html/css 
+jinja template 
+
+python + html 
+
+looop
+conditional 
+
+Python /Django
+
+SQL
+
+============================================================
+Set:
+
+it is collection of unique elements[data type]
+it is unordered data Stucture
+we cannt perform index operation
+it is mutable type
+[insert/delete/update]
+
+operation:
+
+inserttion:
+===========
+add(element)
+update([group of element])
+
+deletion
+==========
+remove(element) --  delete element if it is present if not then return KeyError
+discard(element) -- delete element if it present if not then skip and process
+pop() -- randomaly delete
+clear() -- delete all
+
+
+operation on multiple set
+
+
+union:
+========
+collection of elements from both sets
+
+intersection:
+===============
+common elements
+
+
+difference:
+=============
+a-b
+
+element present in a not in b
+
+
+symmetric difference
+=====================
+
+a-b
+
+except common elements
+
+a = {1,2,3}
+
+b= {1,7,9}
+
+c = {5,8,4}
+
+
+a.intersection(b,c) --- & logical operator  -- True -- True 
+
+set()
+
+Dict = {}
+=================
+
+
+
+
+data communication
+
+
+AWS 
+
+API
+
+MongoDB --->
+
+
+dict  ---- row
+
+documents  table
+
+collection  data
+
+Database
+
+1)it is collection of item
+2)item --> key:value pair
+3){} -- dict
+4)it is mutable 
+5)it is unordered type DS
+6)indexing not allowed
+7)key always unique but if specify then it will take last inserted value
+
+my_dict = {'name':'Python',version:2.0,auther :  'Guido van Rossum'}
+
+
+
+key:
+    it is always immutable
+	
+	
+mutable:/changable/unhashable
+=============================
+list
+set
+dict
+
+immutable:
+===========
+tuple -- it is not recommnded for as key
+str
+number/int
+
+value:
+
+it can be mutable or immutable
+
+
+
+2 hr : complete revision
+
+Basic concept:
+
+logic 
+
+python -- file --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
